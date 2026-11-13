@@ -1,0 +1,7 @@
+// Simple vessel outlines, all drawn in a 100 x 120 box.
+export const VESSELS = {
+  cup: 'M20 30 H80 L72 100 Q71 108 62 108 H38 Q29 108 28 100 Z',
+  bowl: 'M10 50 H90 Q90 100 50 100 Q10 100 10 50 Z',
+  vase: 'M40 10 H60 V30 Q85 45 85 75 Q85 108 50 108 Q15 108 15 75 Q15 45 40 30 Z',
+  jug: 'M25 25 H65 V40 Q80 50 80 75 Q80 108 50 108 H40 Q20 108 20 75 Q20 50 25 40 Z',
+}

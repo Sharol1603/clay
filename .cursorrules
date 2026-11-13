@@ -1,0 +1,6 @@
+Project: Shoreline Clay, a React + Vite + Tailwind CSS v3 + GSAP site.
+- Components live in src/components, one per section. Plain JSX, no TypeScript.
+- Style with Tailwind utilities and the tokens in tailwind.config.js (paper, ink, glaze, slip, mist). Do not add new hex values inline.
+- Animate with GSAP via the useGSAP hook from @gsap/react. Always pass { scope } and wrap motion in gsap.matchMedia() so prefers-reduced-motion users get a static page.
+- Import gsap from src/lib/gsap.js so plugins stay registered once.
+- Keep the PRD.md in sync when sections or features change.
